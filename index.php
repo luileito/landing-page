@@ -59,8 +59,6 @@
 <footer>
   <p>
     &copy; <?php echo strftime('%Y') ?>
-    <a href="http://prhlt.iti.upv.es" title="Pattern Recognition and Human Language Technology">PRHLT</a>
-    <a href="http://www.upv.es" title="Universidad Politécnica de Valencia">UPV</a>
   </p>
   <ul>
     <li><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Accesible site" rel="external">AAA</a></li>
