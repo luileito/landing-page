@@ -52,7 +52,7 @@
     <?php echo _('Email') ?>
     <label for="email"><?php _('Email') ?></label>
     <input name="email" type="text" />
-    <input name="agree-terms" type="checkbox" /> <a href=""><?php echo _('I agree to the conditions.') ?></a>
+    <input name="agree-terms" type="checkbox" /> <a href="terms.php"><?php echo _('I agree to the conditions.') ?></a>
   </form>
 </section>
 
