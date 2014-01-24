@@ -21,7 +21,7 @@
 <header>
   <img src="logo.png" alt="<?php _('The ALT logo') ?>" />
   <h1><?php echo _('My awesome landing page') ?></h1>
-  <h2><?php echo _('Some short paragraph to define the mission of the company/produce.') ?></h2>
+  <h2><?php echo _('Some short paragraph to define the mission of the company/product.') ?></h2>
 </header>
 
 <nav>
@@ -52,7 +52,9 @@
     <?php echo _('Email') ?>
     <label for="email"><?php _('Email') ?></label>
     <input name="email" type="text" />
-    <input name="agree-terms" type="checkbox" /> <a href="terms.php"><?php echo _('I agree to the conditions.') ?></a>
+    
+    <input name="agree-terms" type="checkbox" />
+    <a href="terms.php"><?php echo _('I agree to the conditions.') ?></a>
   </form>
 </section>
 
