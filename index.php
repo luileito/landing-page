@@ -52,6 +52,8 @@
     
     <input name="agree-terms" type="checkbox" />
     <a href="terms.php"><?php echo _('I agree to the conditions.') ?></a>
+    
+    <input type="submit" />
   </form>
 </section>
 
