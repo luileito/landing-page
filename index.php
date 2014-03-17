@@ -19,7 +19,7 @@
 <body id="top">
 
 <header>
-  <img src="logo.png" alt="<?php _('The ALT logo') ?>" />
+  <img src="logo.png" alt="<?php echo _('The ALT logo') ?>" />
   <h1><?php echo _('My awesome landing page') ?></h1>
   <h2><?php echo _('Some short paragraph to define the mission of the company/product.') ?></h2>
 </header>
@@ -28,7 +28,6 @@
   <ul>
     <li>English</li>
     <li>Español</li>
-    <li>Valencià/Català</li>
     <li>Italiano</li>
     <li>Français</li>
     <li>...</li>
@@ -36,21 +35,21 @@
 </nav>
 
 <section id="faq">
-  <h1><?php _('Description') ?></h1>
-  <p><?php _('An answer') ?></p>
+  <h1><?php echo _('Description') ?></h1>
+  <p><?php echo _('An answer') ?></p>
   
-  <h1><?php _('Another description') ?></h1>
-  <p><?php _('Another answer') ?></p>
+  <h1><?php echo _('Another description') ?></h1>
+  <p><?php echo _('Another answer') ?></p>
 </section>
 
 <section id="form">
   <form action="dowant.php" method="post">
     <?php echo _('Name') ?>
-    <label for="name"><?php _('Name') ?></label>
+    <label for="name"><?php echo _('Name') ?></label>
     <input name="name" type="text" />
     
     <?php echo _('Email') ?>
-    <label for="email"><?php _('Email') ?></label>
+    <label for="email"><?php echo _('Email') ?></label>
     <input name="email" type="text" />
     
     <input name="agree-terms" type="checkbox" />
@@ -63,8 +62,8 @@
     &copy; <?php echo strftime('%Y') ?>
   </p>
   <ul>
-    <li><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Accesible site" rel="external">AAA</a></li>
-    <li><a href="http://browsehappy.com" title="Use a good browser" rel="external">Browse Happy</a></li>
+    <li><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="<?php echo _('Accesible site') ?>" rel="external">AAA</a></li>
+    <li><a href="http://browsehappy.com" title="<?php echo _('Use a good browser') ?>" rel="external"><?php echo _('Browse Happy') ?></a></li>
   </ul>
   <!--<p><?php echo sprintf( _("Last modification: %s"), strftime('%c') ) ?></p>-->
 </footer>
