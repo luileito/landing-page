@@ -44,11 +44,9 @@
 
 <section id="form">
   <form action="dowant.php" method="post">
-    <?php echo _('Name') ?>
     <label for="name"><?php echo _('Name') ?></label>
     <input name="name" type="text" />
     
-    <?php echo _('Email') ?>
     <label for="email"><?php echo _('Email') ?></label>
     <input name="email" type="text" />
     
